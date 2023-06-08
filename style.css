@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F2F2F2;
+    height: 100vh;
+}
+
+/***************Comeco de Barra de menu ******************/
+
+.logo {
+    position: absolute;
+    left: 2.5rem;
+    top: 0.35rem;
+    width: 50px;
+}
+
+ul {
+    text-align: center;
+}
+
+nav {
+    background-color: #5168A0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav li a {
+    display: inline-block;
+    color: #F0F3FA;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+nav li a:hover {
+    color: #2D3A5A;
+}
+
+.dropdown-menu {
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+    background: #5168A0;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #F0F3FA;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Fim de Barra de menu */
+
+/* Comeco da tela inicial */
+
+.texthome {
+    color: #000;
+    font-size: 3rem;
+    width: 35rem;
+    margin: 8rem 0 0 6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iw {
+    margin-left: 25px;
+}
+
+.iw img {
+    width: 40px;
+}
+
+.im {
+    text-align: right;
+    margin-right: 6rem;
+}
+
+.im img {
+    position: absolute;
+    width: 522px;
+    height: 520px;
+    left: 792px;
+    top: 419px;
+    width: 30rem;
+}
+
+.texthome .author {
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+}

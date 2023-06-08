@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F2F2F2;
+    height: 100vh;
+}
+
+/***************Comeco de Barra de menu ******************/
+
+.logo {
+    position: absolute;
+    left: 2.5rem;
+    top: 0.35rem;
+    width: 50px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul {
+    text-align: center;
+}
+
+nav {
+    background-color: #5168A0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav li a {
+    display: inline-block;
+    color: #F0F3FA; 
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+nav li a:hover {
+    color: #2D3A5A;
+}
+
+.dropdown-menu {
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+    background: #5168A0;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #F0F3FA;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Fim de Barra de menu */
+ 
+/* Comeco da tela de pitagoras*/
+
+.cb {
+    margin: 4.5rem 0 0 4rem;
+    font-size: 1rem;
+    font-family: 'Bebas Neue', sans-serif;;
+}
+
+section {
+    display: inline-flex;
+    margin: 0 0 1.25rem 0;
+}
+
+.texto {
+    background: #fff;
+    text-align: left;
+    margin-left: 2.5rem;
+    margin-right: 5rem;
+}
+
+.t1 {
+    padding: 1rem;
+}
+
+.t1 h1 {
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.t1 h2 {
+    font-size: 1.25rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.t1 p {
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    text-align: justify;
+    margin-bottom: 2.5rem;
+}
+
+.t1 img {
+    align-items: center;
+    width: 13rem;
+    display: block; 
+    margin: auto; 
+}
+
+.t2 {
+    padding: 1rem;
+}
+
+.t2 h2 {
+    font-size: 1.25rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.t2 p {
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    text-align: justify;
+    margin-bottom: .5rem;
+}
+
+.t2 img {
+    align-items: center;
+    width: 20rem;
+    display: block; 
+    margin: auto; 
+}
+
+
+.tr {
+    width: 14rem;
+    margin-right: 3rem;
+    background: #fff;
+}
+
+.tr h2 {
+    font-size: 1.10rem;
+    padding: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    border: 1px solid black;
+}
+
+.tr p {
+    font-size: 1rem;
+    padding: 1rem 0 1rem 2rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.TRI img {
+    margin-top: 18rem;
+}
+
+.cont {
+    color: #2D3A5A;
+}

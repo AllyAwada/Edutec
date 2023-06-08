@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F2F2F2;
+    height: 100vh;
+}
+
+/***************Comeco de Barra de menu ******************/
+
+.logo {
+    position: absolute;
+    left: 2.5rem;
+    top: 0.35rem;
+    width: 50px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul {
+    text-align: center;
+}
+
+nav {
+    background-color: #5168A0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav li a {
+    display: inline-block;
+    color: #F0F3FA; 
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+nav li a:hover {
+    color: #2D3A5A;
+}
+
+.dropdown-menu {
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+    background: #5168A0;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #F0F3FA;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Fim de Barra de menu */
+
+/* Fim de Barra de menu */
+
+.sv {
+    margin-top: 10rem;
+}
+
+.vc {
+    margin-top: 2rem;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.dm {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.dm a {
+    margin-right: 1rem;
+    background: #5168A0;
+    color: #Fff;
+    border: 0.5px solid black;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.dm a:hover {
+    color: #2D3A5A;
+}
+
+.v1 {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.cont {
+    color: #2D3A5A;
+}
